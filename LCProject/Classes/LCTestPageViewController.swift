@@ -8,7 +8,7 @@
 import UIKit
 import SnapKit
 
-class LCTestPageViewController: UIViewController {
+public class LCTestPageViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

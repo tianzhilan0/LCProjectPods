@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
   # 项目名
   spec.name         = "LCProjectPods"
   # 版本号
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.3"
   # 摘要
   spec.summary      = "A short description of LCProjectPods."
   # 描述

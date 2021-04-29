@@ -22,6 +22,7 @@
 		84BCC529263AB70800701197 /* LCProjectFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84BCC514263AB70700701197 /* LCProjectFramework.framework */; };
 		84BCC52A263AB70800701197 /* LCProjectFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84BCC514263AB70700701197 /* LCProjectFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		84BCC54E263AB7E500701197 /* LCProject-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 84BCC544263AB7D100701197 /* LCProject-Bridging-Header.h */; };
+		84BCC58D263AC8E200701197 /* LCTestPageViewController.swift in Headers */ = {isa = PBXBuildFile; fileRef = 84AAB2D1263A926A00D7CA78 /* LCTestPageViewController.swift */; };
 		C39CCA4A9F489D6A152AB36B /* Pods_LCProject_LCProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95ADFA9552C5EEEAA6389C45 /* Pods_LCProject_LCProjectUITests.framework */; };
 		C4C92EBE8CCB66765CF40113 /* Pods_LCProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77257315D5D8A3B1F6FBA4B /* Pods_LCProjectTests.framework */; };
 /* End PBXBuildFile section */
@@ -260,6 +261,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84BCC58D263AC8E200701197 /* LCTestPageViewController.swift in Headers */,
 				84BCC54E263AB7E500701197 /* LCProject-Bridging-Header.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -728,6 +730,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A58BD69FEC21352A0D8FB2EE /* Pods-LCProject.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
@@ -753,6 +756,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 57DF7CA5B5434D0618DEE6AD /* Pods-LCProject.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_MODULES = YES;
