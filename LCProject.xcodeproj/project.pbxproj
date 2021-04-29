@@ -19,6 +19,9 @@
 		84AAB2D2263A926A00D7CA78 /* LCTestPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AAB2D1263A926A00D7CA78 /* LCTestPageViewController.swift */; };
 		84AAB2F9263AA4AA00D7CA78 /* images.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 84AAB2F8263AA4AA00D7CA78 /* images.bundle */; };
 		84AAB308263AA7D200D7CA78 /* LCProjectPods.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 84AAB307263AA7D200D7CA78 /* LCProjectPods.podspec */; };
+		84BCC529263AB70800701197 /* LCProjectFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84BCC514263AB70700701197 /* LCProjectFramework.framework */; };
+		84BCC52A263AB70800701197 /* LCProjectFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 84BCC514263AB70700701197 /* LCProjectFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		84BCC54E263AB7E500701197 /* LCProject-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 84BCC544263AB7D100701197 /* LCProject-Bridging-Header.h */; };
 		C39CCA4A9F489D6A152AB36B /* Pods_LCProject_LCProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95ADFA9552C5EEEAA6389C45 /* Pods_LCProject_LCProjectUITests.framework */; };
 		C4C92EBE8CCB66765CF40113 /* Pods_LCProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77257315D5D8A3B1F6FBA4B /* Pods_LCProjectTests.framework */; };
 /* End PBXBuildFile section */
@@ -38,7 +41,28 @@
 			remoteGlobalIDString = 84195209263A9037000B518D;
 			remoteInfo = LCProject;
 		};
+		84BCC527263AB70800701197 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84195202263A9037000B518D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84BCC513263AB70700701197;
+			remoteInfo = LCProjectFramework;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		84BCC52E263AB70800701197 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				84BCC52A263AB70800701197 /* LCProjectFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		101CD3E871F9C5ECCBB29694 /* Pods-LCProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCProjectTests.release.xcconfig"; path = "Target Support Files/Pods-LCProjectTests/Pods-LCProjectTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -62,6 +86,12 @@
 		84AAB2D1263A926A00D7CA78 /* LCTestPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCTestPageViewController.swift; sourceTree = "<group>"; };
 		84AAB2F8263AA4AA00D7CA78 /* images.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = images.bundle; sourceTree = "<group>"; };
 		84AAB307263AA7D200D7CA78 /* LCProjectPods.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LCProjectPods.podspec; sourceTree = "<group>"; };
+		84BCC514263AB70700701197 /* LCProjectFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LCProjectFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84BCC516263AB70700701197 /* LCProjectFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LCProjectFramework.h; sourceTree = "<group>"; };
+		84BCC517263AB70700701197 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84BCC523263AB70800701197 /* LCProjectFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCProjectFrameworkTests.swift; sourceTree = "<group>"; };
+		84BCC525263AB70800701197 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84BCC544263AB7D100701197 /* LCProject-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LCProject-Bridging-Header.h"; sourceTree = "<group>"; };
 		95ADFA9552C5EEEAA6389C45 /* Pods_LCProject_LCProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LCProject_LCProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A58BD69FEC21352A0D8FB2EE /* Pods-LCProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LCProject.debug.xcconfig"; path = "Target Support Files/Pods-LCProject/Pods-LCProject.debug.xcconfig"; sourceTree = "<group>"; };
 		C77257315D5D8A3B1F6FBA4B /* Pods_LCProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LCProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -74,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84BCC529263AB70800701197 /* LCProjectFramework.framework in Frameworks */,
 				3A8295FD78913C96889CAFF6 /* Pods_LCProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -91,6 +122,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C39CCA4A9F489D6A152AB36B /* Pods_LCProject_LCProjectUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84BCC511263AB70700701197 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,6 +165,8 @@
 				8419520C263A9037000B518D /* LCProject */,
 				84195223263A9038000B518D /* LCProjectTests */,
 				8419522E263A9038000B518D /* LCProjectUITests */,
+				84BCC515263AB70700701197 /* LCProjectFramework */,
+				84BCC522263AB70800701197 /* LCProjectFrameworkTests */,
 				8419520B263A9037000B518D /* Products */,
 				33E330D6687B0B14A36D08E2 /* Pods */,
 				69418F18141D4AE10C3E13A0 /* Frameworks */,
@@ -139,6 +179,7 @@
 				8419520A263A9037000B518D /* LCProject.app */,
 				84195220263A9038000B518D /* LCProjectTests.xctest */,
 				8419522B263A9038000B518D /* LCProjectUITests.xctest */,
+				84BCC514263AB70700701197 /* LCProjectFramework.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -155,6 +196,7 @@
 				84195216263A9038000B518D /* Assets.xcassets */,
 				84195218263A9038000B518D /* LaunchScreen.storyboard */,
 				8419521B263A9038000B518D /* Info.plist */,
+				84BCC544263AB7D100701197 /* LCProject-Bridging-Header.h */,
 			);
 			path = LCProject;
 			sourceTree = "<group>";
@@ -193,7 +235,36 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
+		84BCC515263AB70700701197 /* LCProjectFramework */ = {
+			isa = PBXGroup;
+			children = (
+				84BCC516263AB70700701197 /* LCProjectFramework.h */,
+				84BCC517263AB70700701197 /* Info.plist */,
+			);
+			path = LCProjectFramework;
+			sourceTree = "<group>";
+		};
+		84BCC522263AB70800701197 /* LCProjectFrameworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				84BCC523263AB70800701197 /* LCProjectFrameworkTests.swift */,
+				84BCC525263AB70800701197 /* Info.plist */,
+			);
+			path = LCProjectFrameworkTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		84BCC50F263AB70700701197 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BCC54E263AB7E500701197 /* LCProject-Bridging-Header.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		84195209263A9037000B518D /* LCProject */ = {
@@ -205,10 +276,12 @@
 				84195207263A9037000B518D /* Frameworks */,
 				84195208263A9037000B518D /* Resources */,
 				F2E9958DC0BFA2E444A3B123 /* [CP] Embed Pods Frameworks */,
+				84BCC52E263AB70800701197 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				84BCC528263AB70800701197 /* PBXTargetDependency */,
 			);
 			name = LCProject;
 			productName = LCProject;
@@ -254,6 +327,24 @@
 			productReference = 8419522B263A9038000B518D /* LCProjectUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		84BCC513263AB70700701197 /* LCProjectFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84BCC52B263AB70800701197 /* Build configuration list for PBXNativeTarget "LCProjectFramework" */;
+			buildPhases = (
+				84BCC50F263AB70700701197 /* Headers */,
+				84BCC510263AB70700701197 /* Sources */,
+				84BCC511263AB70700701197 /* Frameworks */,
+				84BCC512263AB70700701197 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LCProjectFramework;
+			productName = LCProjectFramework;
+			productReference = 84BCC514263AB70700701197 /* LCProjectFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -265,6 +356,7 @@
 				TargetAttributes = {
 					84195209263A9037000B518D = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 					8419521F263A9038000B518D = {
 						CreatedOnToolsVersion = 12.4;
@@ -273,6 +365,9 @@
 					8419522A263A9038000B518D = {
 						CreatedOnToolsVersion = 12.4;
 						TestTargetID = 84195209263A9037000B518D;
+					};
+					84BCC513263AB70700701197 = {
+						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
@@ -292,6 +387,7 @@
 				84195209263A9037000B518D /* LCProject */,
 				8419521F263A9038000B518D /* LCProjectTests */,
 				8419522A263A9038000B518D /* LCProjectUITests */,
+				84BCC513263AB70700701197 /* LCProjectFramework */,
 			);
 		};
 /* End PBXProject section */
@@ -317,6 +413,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		84195229263A9038000B518D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84BCC512263AB70700701197 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -456,6 +559,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		84BCC510263AB70700701197 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -468,6 +578,11 @@
 			isa = PBXTargetDependency;
 			target = 84195209263A9037000B518D /* LCProject */;
 			targetProxy = 8419522C263A9038000B518D /* PBXContainerItemProxy */;
+		};
+		84BCC528263AB70800701197 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84BCC513263AB70700701197 /* LCProjectFramework */;
+			targetProxy = 84BCC527263AB70800701197 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -615,6 +730,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JT8T3CH4R4;
 				ENABLE_BITCODE = NO;
@@ -626,6 +742,8 @@
 				MACH_O_TYPE = mh_dylib;
 				PRODUCT_BUNDLE_IDENTIFIER = cn.oyear.LCProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LCProject/LCProject-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -637,6 +755,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JT8T3CH4R4;
 				ENABLE_BITCODE = NO;
@@ -648,6 +767,7 @@
 				MACH_O_TYPE = mh_dylib;
 				PRODUCT_BUNDLE_IDENTIFIER = cn.oyear.LCProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LCProject/LCProject-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -741,6 +861,62 @@
 			};
 			name = Release;
 		};
+		84BCC52C263AB70800701197 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = JT8T3CH4R4;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LCProjectFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.oyear.LCProjectFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		84BCC52D263AB70800701197 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = JT8T3CH4R4;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LCProjectFramework/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cn.oyear.LCProjectFramework;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -776,6 +952,15 @@
 			buildConfigurations = (
 				8419523B263A9038000B518D /* Debug */,
 				8419523C263A9038000B518D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84BCC52B263AB70800701197 /* Build configuration list for PBXNativeTarget "LCProjectFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84BCC52C263AB70800701197 /* Debug */,
+				84BCC52D263AB70800701197 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
