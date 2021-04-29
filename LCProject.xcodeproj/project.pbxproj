@@ -743,7 +743,7 @@
 					"@executable_path/Frameworks",
 				);
 				MACH_O_TYPE = mh_dylib;
-				PRODUCT_BUNDLE_IDENTIFIER = cn.oyear.LCProject;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.oyear.player;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "LCProject/LCProject-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -769,7 +769,7 @@
 					"@executable_path/Frameworks",
 				);
 				MACH_O_TYPE = mh_dylib;
-				PRODUCT_BUNDLE_IDENTIFIER = cn.oyear.LCProject;
+				PRODUCT_BUNDLE_IDENTIFIER = cn.oyear.player;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "LCProject/LCProject-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;

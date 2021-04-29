@@ -10,7 +10,7 @@ import SnapKit
 
 public class LCTestPageViewController: UIViewController {
 
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
 
         self.view.backgroundColor = UIColor.red
